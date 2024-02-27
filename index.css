@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightsalmon;
+}
+.box
+{
+    display: flex;
+    
+}
+.main
+{
+    margin: 30px;
+}
+.name
+{
+    margin-right: 170px;
+    margin-bottom: 10px;
+}
+.subjects
+{
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.field
+{
+    height: 30px;
+}
+.field2, .field2b, .field2c
+{
+    width: 70px;
+    height: 30px;
+}
+.field3, .field4, .field5
+{
+    width: 100px;
+    height: 30px;
+}
+.subjects p
+{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.init
+{
+    display: flex;
+    justify-content: center;
+}
+input[type="number"]
+{
+    padding-left: 20px;
+}
+input[type="text"]
+{
+    text-align: center;
+}
+.main h2
+{
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
